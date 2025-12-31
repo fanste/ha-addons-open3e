@@ -3,7 +3,7 @@ version: 0.5.10
 slug: open3e
 name: Open3e
 description: Connect to E3 Controls through CAN
-url: https://github.com/flecke-m/ha-addons/tree/main/open3e
+url: https://github.com/fanste/ha-addons-open3e/tree/main/open3e
 codenotary: big.dog@gmx.net
 arch:
   - amd64
@@ -11,7 +11,7 @@ arch:
   - aarch64
 hassio_api: true
 host_network: true
-image: "fleckem/ha-addon-open3e-{arch}"
+image: "fanstedh/ha-addon-open3e-{arch}"
 init: false
 options: {
   "configurations": {
